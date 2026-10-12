@@ -2,6 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <base href="../" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>| Login</title>
     <meta property="og:title" content="| Login" />
@@ -9,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&amp;family=Pangolin:wght@400&amp;family=Raleway:wght@500;600;700&amp;display=swap" />
-    <link rel="stylesheet" href="/css/tokens.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="login">
@@ -1251,7 +1252,7 @@
           </div>
           <div class="global-footer__frame-173">
             <div class="global-footer__card-container">
-              <img class="global-footer__image-30" src="/assets/image.png" alt="image 30" />
+              <img class="global-footer__image-30" src="assets/image.png" alt="image 30" />
               <div class="global-footer__frame-114">
                 <p class="global-footer__monte-seu-amigurumi">Monte seu amigurumi</p>
                 <p class="global-footer__personalize-um-amigurumi-do-comeco-ao-fim">Personalize um amigurumi do começo ao fim.</p>
@@ -1305,6 +1306,15 @@
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/animejs@4.5.0/dist/bundles/anime.umd.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.addEventListener('click', (e) => {
+        const a = e.target.closest && e.target.closest('a[href^="#"]')
+        if (!a) return
+        e.preventDefault()
+        const el = a.getAttribute('href').length > 1 && document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)))
+        if (el) el.scrollIntoView({ behavior: 'smooth' })
+      })
+    </script>
   </body>
 </html>

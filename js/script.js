@@ -261,37 +261,37 @@ motion('.pagina-de-detalhes-do-produto__products-grid', [
 // GlobalHeader
 document.querySelectorAll('.global-header__logo-container').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/'
+    window.location.href = './'
   })
 })
 
 document.querySelectorAll('.global-header__tab-header-2').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/vale-presentes/'
+    window.location.href = 'vale-presentes/'
   })
 })
 
 document.querySelectorAll('.global-header__tab-header-3').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/receitas/'
+    window.location.href = 'receitas/'
   })
 })
 
 document.querySelectorAll('.global-header__tab-header-4').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/aulas-de-croche/'
+    window.location.href = 'aulas-de-croche/'
   })
 })
 
 document.querySelectorAll('.global-header__button-primary').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/monte-o-seu/'
+    window.location.href = 'produtos/monte-o-seu/'
   })
 })
 
 document.querySelectorAll('.global-header__button-icon').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/login/'
+    window.location.href = 'login/'
   })
 })
 
@@ -305,61 +305,61 @@ document.querySelectorAll('.card-product__button-secondary').forEach((el) => {
 // GlobalFooter
 document.querySelectorAll('.global-footer__button-footer').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-2').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-3').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-4').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-5').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-6').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/'
+    window.location.href = 'produtos/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-7').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/receitas/'
+    window.location.href = 'receitas/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-footer-9').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/aulas-de-croche/'
+    window.location.href = 'aulas-de-croche/'
   })
 })
 
 document.querySelectorAll('.global-footer__card-container').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/produtos/monte-o-seu/'
+    window.location.href = 'produtos/monte-o-seu/'
   })
 })
 
 document.querySelectorAll('.global-footer__button-primary').forEach((el) => {
   el.addEventListener('click', () => {
-    window.location.href = '/aulas-de-croche/'
+    window.location.href = 'aulas-de-croche/'
   })
 })
 
