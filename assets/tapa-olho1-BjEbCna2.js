@@ -1,1 +1,0 @@
-const a="/laura-e-ponto/assets/chapeu1-QY0z3uyI.png",s="/laura-e-ponto/assets/chapeu2-CsgSG5gQ.png",o="/laura-e-ponto/assets/oculos1-CePy6Z7L.png",e="/laura-e-ponto/assets/tapa-olho1-fA4JeseX.png";export{a,s as c,o,e as t};

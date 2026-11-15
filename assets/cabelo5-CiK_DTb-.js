@@ -1,1 +1,0 @@
-const a="/laura-e-ponto/assets/cabelo2-CNBOtYN7.png",o="/laura-e-ponto/assets/cabelo3-DSZ6rVN3.png",s="/laura-e-ponto/assets/cabelo4-CANWfskY.png",e="/laura-e-ponto/assets/cabelo5-DdFCOrMZ.png";export{s as a,o as b,e as c,a as d};

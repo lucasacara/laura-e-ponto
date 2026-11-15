@@ -1,1 +1,0 @@
-const a="/laura-e-ponto/assets/image-1289-canario-BCDKAoON.webp",e="/laura-e-ponto/assets/image-2194-turquesa-icroEvI9.webp",s="/laura-e-ponto/assets/image-2829-azul-bic-CyVCSvkF.webp",o="/laura-e-ponto/assets/image-4456-laranja-BtdlqnUg.webp";export{s as a,e as b,a as c,o as i};
