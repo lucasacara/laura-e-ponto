@@ -1,0 +1,1 @@
+const a="/laura-e-ponto/assets/camisa1-B6sYQrcC.png",s="/laura-e-ponto/assets/camiseta1-Crss5ONx.png",t="/laura-e-ponto/assets/regata1-CF0ICQpP.png",o="/laura-e-ponto/assets/top1-3OpQviPZ.png";export{a,s as c,t as r,o as t};
