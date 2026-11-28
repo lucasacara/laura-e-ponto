@@ -1,1 +1,0 @@
-import{d as t,_ as a,o,c,b as e,t as r}from"./index-C_MFvirD.js";const n=t({name:"TagPrice",props:{price:{type:String,required:!1,default:"R$ 29,90"}}}),i={class:"tag-price"},p={class:"inner-container"},d={class:"r-29-90"};function _(s,l,f,m,g,u){return o(),c("div",i,[e("div",p,[e("p",d,r(s.price),1)])])}const h=a(n,[["render",_],["__scopeId","data-v-3da42d53"]]);export{h as T};
